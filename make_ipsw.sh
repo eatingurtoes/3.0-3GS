@@ -42,3 +42,4 @@ echo "Device is new bootrom, will require alloc8 to be applied after custom .ips
 else "Device is old bootrom, will boot out of the box!"
 exit
 fi
+exit
