@@ -17,8 +17,8 @@ bin/ipsw iPhone2,1_3.0_7A341_Restore.ipsw iPhone2,1_3.0_7A341_Custom_no24kpwn.ip
 if [ -e "iPhone2,1_3.0_7A341_Custom_no24kpwn.ipsw" ]; then
 echo "First custom .ipsw successfully made, adding exploit..."
 else
-echo "Failure making 1st custom .ipsw, aborting..."
-exit
+echo "Failure making 1st custom .ipsw, please press Ctrl-C..."
+sleep 5
 fi
 mkdir addexploit
 mkdir addexploit/custom3.0
